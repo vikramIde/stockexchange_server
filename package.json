@@ -1,0 +1,25 @@
+{
+  "name": "storeratingsystemapi",
+  "version": "1.0.0",
+  "description": "Daily Store Rating web api in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NitinAgarwal192/StoreRatingSystemAPI.git"
+  },
+  "author": "NitinAgarwal <agarwalnitin192@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.5"
+  }
+}
