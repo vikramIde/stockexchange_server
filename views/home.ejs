@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Daily Store Rating Web API</title>
+    <title>Upload Stock Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-    <h1>Welcome to Daily Store Rating Web API</h1>
+	<div class="container">
+	  <div class="jumbotron">
+	    <h1>Stock Exchange File Upload</h1> 
+	    <p>Use the form below to upload a list of stocks.
+        Click <a href="/template">here</a> for an example template.</p>
+	    <form action="/" method="POST" encType="multipart/form-data">
+			<div class="form-group">
+				<label for="email">File:</label>
+			</div>
+	        <input type="submit" class="btn btn-default" value="Upload File" />
+	    </form>
+	  </div>
+	</div>
+    
 </body>
 </html>
