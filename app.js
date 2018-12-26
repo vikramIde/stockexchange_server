@@ -42,3 +42,5 @@ mongoose.connect(process.env.mongoDBURL, () => {
         console.log('Web Api is now listening for request on port '+ PORT)
     })
 }).catch(err => console.log('Error while connecting DB', err))
+
+

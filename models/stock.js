@@ -8,7 +8,7 @@ const getStockBySymbol = (data) => {
 	console.log('Hitting Stock Model fine!!')
     return Stock.find({symbol:data})
         .then((stocks) => {
-        	
+        	console.log(stocks)
             if (stocks) { return stocks }
         })
 }

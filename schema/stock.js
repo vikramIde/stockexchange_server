@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose').set('debug', true)
 
 const Schema = mongoose.Schema
 
@@ -12,6 +12,6 @@ const stockSchema = new Schema({
     volume: { type: Number, required: true },
 }, {timestamps: true, versionKey: false })
 
-const Stocks = mongoose.model('stocks1', stockSchema)
+const Stocks = mongoose.model('stocks', stockSchema)
 
 module.exports = Stocks
