@@ -12,6 +12,6 @@ const stockSchema = new Schema({
     volume: { type: Number, required: true },
 }, {timestamps: true, versionKey: false })
 
-const Stocks = mongoose.model('stocks6', stockSchema)
+const Stocks = mongoose.model('stocks1', stockSchema)
 
 module.exports = Stocks

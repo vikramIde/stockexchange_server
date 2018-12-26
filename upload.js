@@ -23,15 +23,16 @@ async function uploadData(dataArray) {
   try {
     const chunks = chunkArray(dataArray, 100);
     for(const chunk of chunks) {
+        console.log(chunk.length)
       await uploadDataChunk(chunk);
     }
   } catch(error) {
-    // Catch en error here
+    console.log(error)
   }
 }
 
 function uploadDataChunk(chunk) {
-   
+   console.log("I am being fired")
   Stock.create(chunk, function(err, documents) {
                     if (err) throw err;
                     else
