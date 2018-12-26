@@ -1,5 +1,5 @@
-# DailyStoreRating-WebAPI
-Daily Store Rating System Web API in Nodejs
+# STOCKExchange-WebAPI
+Stock Exchange System Web API in Nodejs
 
 ## Installation
 A fresh installation of the project will usually involve the following steps:
